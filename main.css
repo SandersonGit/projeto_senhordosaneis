@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1360px;
+    
+}
+
+
+
+
+header {
+    background-color: #45432b;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+header li {
+    list-style: none ;
+    display: inline;
+    margin-right: 10px;
+}
+header li a {
+    text-decoration: none ;
+    color: #b68a33;
+    
+}
+
+
+
+header img {
+    height: 90%;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+body {
+    background-color: #565e31;
+}
+
+main {
+    height: fit-content;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px 10PX;
+}
+.titulo h1 {
+    color: #b68a33;
+    margin-top: 20px;
+}
+.titulo p {
+    color: #dec56a;
+}
+.guerreiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #6a7431;
+    padding: 4px 6px;
+    margin: 10px;
+    border: 1px solid #dec56a;
+    
+}
+main .card img {
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+    
+    
+}
+
+main .card h2, main .card article {
+    width: 50%;
+    /* height: 90vh; */
+    height: fit-content;
+    font-size: small;
+    text-align: start;
+    
+}
+.card article h2{
+    color: #b68a33;
+}
+.card article p {
+    color: #dec56a;
+}
+
+
+
+
+
+
+footer {
+    background-color: #45432b;
+    text-align: center;
+}
